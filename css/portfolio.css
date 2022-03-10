@@ -1,9 +1,36 @@
-h1 {
-  text-align: center;
-  font-family: "Rubik", sans-serif;
+:root {
+  --primary-color: #141010;
+  --secondary-color: #f70776;
 }
 
-i {
-  text-align: center;
-  width: 100%;
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-size: 5px;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 64px;
+  margin-top: 40px;
+  font-weight: lighter;
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: white;
+  margin-top: 150px;
+  font-size: 96px;
+}
+
+h4 {
+  color: var(--secondary-color);
+  font-size: 96px;
+  margin-top: 40px;
+}
+
+.container {
+  text-align: right;
 }
