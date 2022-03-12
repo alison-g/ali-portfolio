@@ -22,7 +22,6 @@ h2 {
 
 h3 {
   color: white;
-
   font-size: 96px;
   margin-left: 800px;
 }
@@ -35,17 +34,15 @@ h4 {
 }
 
 img {
-  display: block;
-  max-width: 10%;
+  width: 100px;
   border-radius: 200px;
-  margin-top: 30px;
   background-color: white;
+  justify-content: left;
 }
 
 .container {
   text-align: right;
-  max-width: 90%;
-  margin: 40px;
+  padding: 40px;
 }
 
 .about,
@@ -81,4 +78,7 @@ h2:hover .front-end-dev {
 
 h2:hover .contact {
   display: inline;
+}
+
+@media (max-width) {
 }
