@@ -29,17 +29,17 @@ h4 {
   font-size: 96px;
 }
 
+button {
+  background-color: var(--primary-color);
+  border: none;
+  margin-bottom: 25px;
+}
+
 img {
   width: 100px;
   border-radius: 200px;
   background-color: white;
   justify-content: left;
-}
-
-button {
-  background-color: var(--primary-color);
-  border: none;
-  margin-bottom: 25px;
 }
 
 .container {
