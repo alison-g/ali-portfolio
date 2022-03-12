@@ -21,7 +21,7 @@ h2 {
 h3 {
   color: white;
   font-size: 96px;
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
 h4 {
@@ -53,34 +53,81 @@ button {
   display: none;
 }
 
-h3:hover .hello {
-  display: none;
-  transition: ease-in-out;
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 50px;
+  }
+
+  h3,
+  h4 {
+    font-size: 72px;
+  }
+
+  img {
+    width: 70px;
+  }
 }
 
-h3:hover .about {
-  display: inline;
-  transition: ease-in-out;
+@media (max-width: 480px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  h3,
+  h4 {
+    font-size: 50px;
+  }
+
+  img {
+    width: 55px;
+  }
+
+  h3 {
+    margin-top: 100px;
+  }
+
+  button {
+    margin: 0 auto;
+  }
 }
 
-h4:hover .ali {
-  display: none;
-  transition: ease-in-out;
+@media (min-width: 1024px) {
+  h3:hover .hello {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h3:hover .about {
+    display: block;
+    transition: ease-in-out;
+  }
+
+  h4:hover .ali {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h4:hover .work {
+    display: inline;
+    transition: ease-in-out;
+  }
+
+  h2:hover .front-end-dev {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h2:hover .contact {
+    display: inline;
+  }
+
+  .navbar-navigation {
+    display: none;
+  }
 }
 
-h4:hover .work {
-  display: inline;
-  transition: ease-in-out;
-}
-
-h2:hover .front-end-dev {
-  display: none;
-  transition: ease-in-out;
-}
-
-h2:hover .contact {
-  display: inline;
-}
-
-@media (max-width) {
+@media (min-width: 500px) {
+  h3 {
+    margin-top: 100px;
+  }
 }
