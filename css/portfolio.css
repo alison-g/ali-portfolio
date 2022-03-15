@@ -5,6 +5,7 @@
 
 body {
   background-color: var(--primary-color);
+  padding: 30px;
 }
 
 h1 {
@@ -21,12 +22,24 @@ h2 {
 h3 {
   color: white;
   font-size: 96px;
-  margin-top: 200px;
+  text-align: right;
 }
 
 h4 {
   color: var(--secondary-color);
   font-size: 96px;
+}
+
+h5 {
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: right;
+  padding-bottom: 150px;
+}
+
+h6 {
+  color: white;
 }
 
 button {
@@ -42,15 +55,40 @@ img {
   justify-content: left;
 }
 
-.container {
-  text-align: center;
-  padding: 40px;
+p {
+  color: white;
 }
 
 .about,
 .work,
 .contact {
   display: none;
+}
+
+.about-start {
+  font-size: 80px;
+  padding-top: 80px;
+}
+
+.about-page {
+  text-align: left;
+}
+
+.jump-to {
+  font-size: 5px;
+  color: white;
+}
+
+.container-outside-buttons {
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+#arrow {
+  color: white;
+  display: block;
+  text-align: right;
+  font-size: 30px;
 }
 
 @media (max-width: 1024px) {
