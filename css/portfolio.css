@@ -48,6 +48,7 @@ button {
   background-color: var(--primary-color);
   border: none;
   margin-bottom: 25px;
+  text-decoration: none;
 }
 
 img {
@@ -118,6 +119,12 @@ p {
   margin-bottom: 300px;
   color: var(--secondary-color);
   font-weight: lighter;
+}
+
+#hello-link,
+#ali-link,
+#front-end-link {
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
