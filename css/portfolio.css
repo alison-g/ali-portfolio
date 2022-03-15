@@ -35,7 +35,7 @@ h5 {
   font-size: 40px;
   font-weight: lighter;
   text-align: right;
-  padding-bottom: 150px;
+  padding-bottom: 280px;
 }
 
 h6 {
@@ -92,6 +92,10 @@ p {
   font-weight: lighter;
 }
 
+.html {
+  margin-top: 400px;
+}
+
 #arrow {
   color: white;
   display: block;
@@ -125,6 +129,11 @@ p {
 #ali-link,
 #front-end-link {
   text-decoration: none;
+}
+
+#jump-to-contact {
+  margin: 0 auto;
+  text-align: right;
 }
 
 @media (max-width: 1024px) {
