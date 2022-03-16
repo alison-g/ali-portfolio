@@ -61,17 +61,16 @@ p {
   color: white;
 }
 
+.container-about {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 100px;
+}
+
 .about,
 .work,
 .contact {
   display: none;
-}
-
-#herbivore,
-#weather-app {
-  text-decoration: none;
-  color: white;
-  font-size: 70px;
 }
 
 .about-start {
@@ -99,7 +98,7 @@ p {
 }
 
 .about-baking {
-  padding-top: 280px;
+  padding-top: 250px;
 }
 
 #arrow {
@@ -107,6 +106,13 @@ p {
   display: block;
   text-align: right;
   font-size: 30px;
+}
+
+#herbivore,
+#weather-app {
+  text-decoration: none;
+  color: white;
+  font-size: 70px;
 }
 
 #linkedin {
