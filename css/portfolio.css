@@ -88,11 +88,6 @@ p {
   padding: 0;
 }
 
-.jump-to {
-  font-size: 5px;
-  color: white;
-}
-
 .container-outside-buttons {
   margin-left: 120px;
   margin-right: 100px;
@@ -142,17 +137,8 @@ p {
   text-decoration: none;
 }
 
-#jump-to-contact {
-  margin: 0 auto;
-  text-align: right;
-}
-
 #contact-heading {
   text-align: center;
-}
-
-#jump-to-portfolio {
-  margin-bottom: -80px;
 }
 
 @media (max-width: 1024px) {
