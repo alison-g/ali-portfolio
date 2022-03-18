@@ -129,7 +129,8 @@ p {
   text-align: center;
 }
 
-#linkedin {
+#linkedin,
+#instagram {
   font-size: 30px;
   margin-left: 20px;
   color: white;
