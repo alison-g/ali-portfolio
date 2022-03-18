@@ -157,9 +157,9 @@ p {
   font-weight: lighter;
 }
 
-#hello-link,
 #ali-link,
-#front-end-link {
+#front-end-link,
+#hello-link {
   text-decoration: none;
 }
 
@@ -179,6 +179,12 @@ p {
 
   img {
     width: 70px;
+  }
+
+  #ali-link,
+  #front-end-link,
+  #hello-link {
+    pointer-events: none;
   }
 }
 
