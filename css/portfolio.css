@@ -80,7 +80,7 @@ p {
 
 .about-start {
   font-size: 80px;
-  padding-top: 80px;
+  margin-top: 180px;
 }
 
 .about-description {
@@ -95,7 +95,7 @@ p {
 }
 
 .about-page {
-  margin-top: 170px;
+  margin-top: 110px;
 }
 
 .portfolio {
@@ -113,15 +113,14 @@ p {
   font-weight: lighter;
 }
 
-.about-baking {
-  padding-top: 250px;
+#arrow {
+  margin-left: 1000px;
+  font-size: 30px;
+  color: white;
 }
 
-#arrow {
-  color: white;
-  display: block;
-  text-align: right;
-  font-size: 30px;
+#about-heading {
+  color: var(--primary-color);
 }
 
 #herbivore,
@@ -167,6 +166,7 @@ p {
   text-align: center;
 }
 
+
 @media (max-width: 1024px) {
   h2 {
     font-size: 50px;
@@ -181,10 +181,19 @@ p {
     width: 70px;
   }
 
+  .about-start {
+    padding-top: 50px;
+  }
+
+  .about-baking {
+    padding-top: 50px;
+  }
+
   #ali-link,
   #front-end-link,
   #hello-link {
     pointer-events: none;
+    cursor: default;
   }
 }
 
@@ -218,7 +227,7 @@ p {
   }
 
   h3:hover .about {
-    display: block;
+    display: inline;
     transition: ease-in-out;
   }
 
@@ -239,15 +248,20 @@ p {
 
   h2:hover .contact {
     display: inline;
+    transition: ease-in-out;
   }
 
   .navbar-navigation {
     display: none;
   }
+
+  .about-baking {
+    padding-top: 250px;
+  }
+  
 }
 
 @media (min-width: 500px) {
   h3 {
     margin-top: 100px;
   }
-}
