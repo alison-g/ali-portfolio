@@ -6,6 +6,7 @@
 body {
   background-color: var(--primary-color);
   padding: 30px;
+  padding-top: 120px;
 }
 
 h1 {
@@ -189,12 +190,6 @@ p {
   }
 }
 
-@media (min-width: 540px) {
-  h3 {
-    margin-top: 100px;
-  }
-}
-
 @media (max-width: 720px) {
   p {
     font-size: 12px;
@@ -272,16 +267,12 @@ p {
     margin-top: 200px;
   }
 
-  .portfolio {
-    margin-top: 170px;
-  }
-
   .linkme {
     margin-bottom: 0px;
   }
 
-  #hello-link {
-    margin-top: 60px;
+  .container-about {
+    margin-top: -60px;
   }
 
   #ali-link,
@@ -291,12 +282,20 @@ p {
     cursor: default;
   }
 
+  #herbivore {
+    margin-top: 80px;
+  }
+
+  #weather-app {
+    margin-top: 100px;
+  }
+
   #arrow {
     margin-left: 800px;
   }
 
   #contact-heading {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
 
