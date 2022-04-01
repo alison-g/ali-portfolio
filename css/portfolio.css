@@ -174,7 +174,11 @@ p {
 
   h3,
   h4 {
-    font-size: 72px;
+    font-size: 65px;
+  }
+
+  h5 {
+    font-size: 30px;
   }
 
   img {
@@ -182,11 +186,26 @@ p {
   }
 
   .about-start {
-    padding-top: 50px;
+    margin-top: 120px;
+    font-size: 70px;
   }
 
   .about-baking {
-    padding-top: 50px;
+    margin-top: 80px;
+  }
+
+  .linkme {
+    font-size: 20px;
+  }
+
+  #contact-heading {
+    margin-top: 150px;
+  }
+
+  #herbivore, #weather-app {
+    line-height: 0px;
+    font-size: 50px;
+    margin-bottom: 40px;
   }
 
   #ali-link,
@@ -195,7 +214,26 @@ p {
     pointer-events: none;
     cursor: default;
   }
-}
+
+  #arrow {
+    margin-left: 700px;
+  }
+
+  #email, #email-icon {
+    font-size: 30px;
+  }
+
+  #email {
+    margin-bottom: 150px;
+  }
+
+  #linkedin,
+  #instagram {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+} 
 
 @media (max-width: 480px) {
   h2 {
@@ -220,7 +258,7 @@ p {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   h3:hover .hello {
     display: none;
     transition: ease-in-out;
@@ -257,6 +295,10 @@ p {
 
   .about-baking {
     padding-top: 250px;
+  }
+
+  #hello-link {
+    margin-top: 0px;
   }
   
 }
