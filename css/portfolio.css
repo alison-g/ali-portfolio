@@ -195,10 +195,6 @@ p {
     font-size: 12px;
   }
 
-  h2 {
-    font-size: 40px;
-  }
-
   h3 {
     font-size: 60px;
   }
@@ -211,36 +207,31 @@ p {
     font-size: 20px;
   }
 
-  .container-work {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-
-  .about-start {
-    margin-top: 100px;
-    font-size: 50px;
-  }
-
-  .about-description {
-    font-size: 20px;
-  }
-
-  .about-baking {
-    margin-top: 80px;
-    font-size: 15px;
-  }
-
-  .about-page {
-    font-size: 60px;
+  .front-end-dev {
+    font-size: 35px;
   }
 
   .portfolio {
-    margin-top: 50px;
     font-size: 60px;
+    margin-top: 20px;
+  }
+
+  .container-about {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .container-work {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .linkme {
     margin-top: -60px;
+  }
+
+  .about-page {
+    margin-top: 0px;
   }
 
   #email,
@@ -248,17 +239,13 @@ p {
     font-size: 25px;
   }
 
-  #about-heading {
-    margin-top: 0px;
+  #contact-heading {
+    padding: -100px;
   }
 
   #weather-app,
   #herbivore {
     font-size: 45px;
-  }
-
-  #hello-link {
-    margin-top: -20px;
   }
 }
 
@@ -322,12 +309,16 @@ p {
   }
 
   .about-start {
-    margin-top: 170px;
     font-size: 70px;
+    margin-top: 70px;
   }
 
   .about-baking {
     margin-top: 90px;
+  }
+
+  .portfolio {
+    margin-top: 20px;
   }
 
   .linkme {
@@ -335,7 +326,7 @@ p {
   }
 
   #contact-heading {
-    margin-top: 150px;
+    margin-top: 30px;
   }
 
   #herbivore,
@@ -440,7 +431,23 @@ p {
     padding-top: 250px;
   }
 
-  #hello-link {
-    margin-top: 0px;
+  .about-start {
+    margin-top: 80px;
+  }
+
+  .portfolio {
+    margin-top: 60px;
+  }
+
+  #contact-heading {
+    margin-top: 120px;
+  }
+
+  #weather-app {
+    margin-top: 90px;
+  }
+
+  #herbivore {
+    margin-top: 40px;
   }
 }
