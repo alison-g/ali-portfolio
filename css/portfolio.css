@@ -236,6 +236,28 @@ p {
   }
 }
 
+@media (max-width: 1368px) and (max-height: 912px) {
+  p {
+    font-size: 18px;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .about-start {
+    margin-top: 180px;
+  }
+
+  .about-baking {
+    margin-top: 100px;
+  }
+
+  .portfolio {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 1200px) {
   .about-baking {
     margin-top: 150px;
@@ -339,6 +361,50 @@ p {
   }
 }
 
+@media (max-width: 912px) and (max-height: 1368px) {
+  .container {
+    margin-top: 200px;
+  }
+
+  .about-start {
+    margin-top: 200px;
+  }
+
+  .about-baking {
+    margin-top: 200px;
+  }
+
+  .portfolio {
+    margin-top: 200px;
+  }
+
+  #contact-heading {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+  .container {
+    margin-top: 60px;
+  }
+
+  .about-start {
+    margin-top: 150px;
+  }
+
+  .about-baking {
+    margin-top: 150px;
+  }
+
+  .portfolio {
+    margin-top: 80px;
+  }
+
+  #contact-heading {
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 820px) {
   .container {
     margin-top: 100px;
@@ -349,7 +415,7 @@ p {
   }
 
   .about-start {
-    margin-top: 250px;
+    margin-top: 200px;
   }
 
   .about-baking {
@@ -371,18 +437,12 @@ p {
 }
 
 @media (max-width: 720px) {
-  body .about-start {
-    padding-top: 0px;
-    margin-top: 50px;
-  }
-
   p {
     font-size: 12px;
   }
 
   h3 {
     font-size: 60px;
-    margin-top: 0px;
   }
 
   h4 {
@@ -393,63 +453,116 @@ p {
     font-size: 20px;
   }
 
+  .container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .container-about {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .container-work {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .container-contact {
+    margin-top: 0px;
+  }
+
+  .about-start {
+    margin-top: 60px;
+    font-size: 60px;
+  }
+
+  .about-para {
+    text-align: center;
+  }
+
+  .about-page {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about-baking {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+
+  .front-end-dev {
+    font-size: 40px;
+  }
+
+  .portfolio {
+    margin-top: 0px;
+  }
+
+  #arrow {
+    font-size: 25px;
+  }
+
+  #about-heading {
+    margin-top: 20px;
+  }
+
+  #contact-heading {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container-work {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   .front-end-dev {
     font-size: 35px;
   }
 
+  .about-start {
+    font-size: 50px;
+    margin-top: 120px;
+  }
+
+  .about-description {
+    font-size: 18px;
+  }
+
+  .about-baking {
+    font-size: 15px;
+    margin-top: 120px;
+  }
+
   .portfolio {
-    font-size: 60px;
-  }
-
-  .container-about {
-    padding-left: 90px;
-    padding-right: 60px;
-  }
-
-  .container-work {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  .linkme {
-    margin-top: -60px;
-  }
-
-  .about-page {
-    margin-top: 0px;
-  }
-
-  #email,
-  #email-icon {
-    font-size: 25px;
-  }
-
-  #contact-heading {
-    padding: -100px;
-  }
-
-  #i-like-baking {
-    margin-top: 60px;
-  }
-
-  #about-heading {
-    padding-top: 0px;
-    margin-top: 0px;
-    color: white;
+    font-size: 50px;
   }
 
   #weather-app,
   #herbivore {
-    font-size: 45px;
+    font-size: 40px;
   }
 
-  #work-portfolio {
-    margin-top: 0px;
-    padding-top: 0px;
+  #contact-heading {
+    font-size: 50px;
+  }
+
+  #email,
+  #email-icon {
+    font-size: 20px;
+  }
+
+  .linkme,
+  #linkedin,
+  #instagram {
+    font-size: 15px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
   h2 {
     font-size: 35px;
   }
@@ -469,5 +582,267 @@ p {
 
   button {
     margin: 0 auto;
+  }
+
+  .container-about {
+    padding-right: 50px;
+    padding-left: 65px;
+    padding-top: 80px;
+  }
+
+  .about-baking {
+    margin-top: 150px;
+  }
+
+  .about-page {
+    margin-top: 150px;
+  }
+
+  .container-work {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 80px;
+  }
+
+  .contact-info-two {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #weather-app,
+  #herbivore {
+    font-size: 40px;
+  }
+
+  #contact-heading {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  #hello-link {
+    margin-top: -30px;
+  }
+
+  .about-start {
+    margin-top: 0px;
+  }
+
+  .about-baking {
+    margin-top: 50px;
+  }
+
+  .container-work {
+    padding: 0px;
+    padding-top: 30px;
+  }
+
+  #weather-app,
+  #herbivore {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    line-height: 0px;
+  }
+
+  .contact-info-two {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 280px) {
+  h3,
+  h4 {
+    font-size: 40px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+  .container {
+    margin-top: -40px;
+  }
+
+  .container-about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .front-end-dev {
+    font-size: 30px;
+  }
+
+  .navbar {
+    background-color: var(--primary-color);
+  }
+
+  .about-start {
+    font-size: 30px;
+  }
+
+  .about-description {
+    font-size: 15px;
+  }
+
+  .about-page {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
+  .portfolio {
+    font-size: 35px;
+  }
+
+  .kitchen {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #weather-app,
+  #herbivore {
+    font-size: 30px;
+  }
+
+  #contact-heading {
+    font-size: 30px;
+  }
+
+  #email,
+  #email-icon,
+  #instagram,
+  #linkedin {
+    font-size: 15px;
+  }
+
+  #instagram,
+  #linkedin {
+    margin-left: 10px;
+  }
+}
+
+@media (max-height: 414px) {
+  body {
+    padding-top: 0px;
+  }
+
+  button {
+    margin-bottom: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .about-start {
+    font-size: 45px;
+  }
+
+  .about-description {
+    font-size: 20px;
+  }
+
+  .about-baking {
+    margin-top: 50px;
+  }
+
+  .about-page {
+    font-size: 45px;
+    margin-top: 0px;
+  }
+
+  .kitchen {
+    display: inline;
+  }
+
+  #email {
+    margin-bottom: 20px;
+  }
+
+  #arrow {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+}
+
+@media (max-height: 375px) {
+  body {
+    padding: 30px;
+    padding-top: 70px;
+  }
+  .container {
+    margin-left: 30px;
+    margin-top: -40px;
+  }
+
+  .about-start {
+    margin-top: 60px;
+  }
+}
+
+@media (max-height: 360px) {
+  h3,
+  h4 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .portfolio {
+    margin-top: 0px;
+  }
+
+  .container {
+    margin-left: 50px;
+  }
+
+  #weather-app,
+  #herbivore {
+    font-size: 35px;
+  }
+
+  .container-contact {
+    margin-top: 0px;
+  }
+
+  #contact-heading {
+    margin-top: 0px;
+  }
+}
+
+@media (max-height: 280px) {
+  body {
+    padding-top: 40px;
+  }
+
+  .container {
+    margin-left: 20px;
+  }
+  .front-end-dev {
+    font-size: 30px;
+  }
+
+  .about-start {
+    font-size: 40px;
+  }
+
+  .about-baking {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  #arrrow {
+    margin-top: 0px;
   }
 }
