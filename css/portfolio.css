@@ -163,90 +163,12 @@ p {
   text-decoration: none;
 }
 
+#about-heading {
+  margin-top: 0px;
+}
+
 #contact-heading {
   text-align: center;
-}
-
-@media (max-width: 480px) {
-  h2 {
-    font-size: 35px;
-  }
-
-  h3,
-  h4 {
-    font-size: 50px;
-  }
-
-  img {
-    width: 55px;
-  }
-
-  h3 {
-    margin-top: 100px;
-  }
-
-  button {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 720px) {
-  p {
-    font-size: 12px;
-  }
-
-  h3 {
-    font-size: 60px;
-  }
-
-  h4 {
-    font-size: 60px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  .front-end-dev {
-    font-size: 35px;
-  }
-
-  .portfolio {
-    font-size: 60px;
-    margin-top: 20px;
-  }
-
-  .container-about {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .container-work {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  .linkme {
-    margin-top: -60px;
-  }
-
-  .about-page {
-    margin-top: 0px;
-  }
-
-  #email,
-  #email-icon {
-    font-size: 25px;
-  }
-
-  #contact-heading {
-    padding: -100px;
-  }
-
-  #weather-app,
-  #herbivore {
-    font-size: 45px;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -389,6 +311,108 @@ p {
 
   #about-heading {
     margin-top: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  body .about-start {
+    padding-top: 0px;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  h4 {
+    font-size: 60px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .front-end-dev {
+    font-size: 35px;
+  }
+
+  .portfolio {
+    font-size: 60px;
+  }
+
+  .container-about {
+    padding-left: 90px;
+    padding-right: 60px;
+  }
+
+  .container-work {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .linkme {
+    margin-top: -60px;
+  }
+
+  .about-page {
+    margin-top: 0px;
+  }
+
+  #email,
+  #email-icon {
+    font-size: 25px;
+  }
+
+  #contact-heading {
+    padding: -100px;
+  }
+
+  #i-like-baking {
+    margin-top: 60px;
+  }
+
+  #about-heading {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+  }
+
+  #weather-app,
+  #herbivore {
+    font-size: 45px;
+  }
+
+  #work-portfolio {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  h3,
+  h4 {
+    font-size: 50px;
+  }
+
+  img {
+    width: 55px;
+  }
+
+  h3 {
+    margin-top: 100px;
+  }
+
+  button {
+    margin: 0 auto;
   }
 }
 
