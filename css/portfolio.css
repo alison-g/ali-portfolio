@@ -181,10 +181,6 @@ p {
     margin-top: -60px;
   }
 
-  .container-contact {
-    margin-left: 60px;
-  }
-
   #ali-link,
   #front-end-link,
   #hello-link {
@@ -233,15 +229,15 @@ p {
 
   .about-start {
     font-size: 70px;
-    margin-top: 70px;
+    margin-top: 150px;
   }
 
   .about-baking {
-    margin-top: 90px;
+    margin-top: 170px;
   }
 
   .portfolio {
-    margin-top: 20px;
+    margin-top: 80px;
   }
 
   .linkme {
@@ -249,7 +245,7 @@ p {
   }
 
   #contact-heading {
-    margin-top: 30px;
+    margin-top: 80px;
   }
 
   #herbivore,
