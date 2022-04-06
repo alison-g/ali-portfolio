@@ -116,7 +116,7 @@ p {
 }
 
 #arrow {
-  margin-left: 1000px;
+  margin-top: 40px;
   font-size: 30px;
   color: white;
 }
@@ -172,9 +172,73 @@ p {
   text-align: center;
 }
 
+@media (min-width: 1200px) {
+  h3:hover .hello {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h3:hover .about {
+    display: inline;
+    transition: ease-in-out;
+  }
+
+  h4:hover .ali {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h4:hover .work {
+    display: inline;
+    transition: ease-in-out;
+  }
+
+  h2:hover .front-end-dev {
+    display: none;
+    transition: ease-in-out;
+  }
+
+  h2:hover .contact {
+    display: inline;
+    transition: ease-in-out;
+  }
+
+  .navbar-navigation {
+    display: none;
+  }
+
+  .about-baking {
+    padding-top: 180px;
+  }
+
+  .about-start {
+    margin-top: 80px;
+  }
+
+  .portfolio {
+    margin-top: 60px;
+  }
+
+  #contact-heading {
+    margin-top: 120px;
+  }
+
+  #weather-app {
+    margin-top: 90px;
+  }
+
+  #herbivore {
+    margin-top: 40px;
+  }
+
+  #email {
+    margin-bottom: 120px;
+  }
+}
+
 @media (max-width: 1200px) {
   .about-baking {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   .container-about {
@@ -194,10 +258,6 @@ p {
 
   #weather-app {
     margin-top: 100px;
-  }
-
-  #arrow {
-    margin-left: 800px;
   }
 
   #contact-heading {
@@ -229,15 +289,15 @@ p {
 
   .about-start {
     font-size: 70px;
-    margin-top: 150px;
+    margin-top: 100px;
   }
 
   .about-baking {
-    margin-top: 170px;
+    margin-top: 80px;
   }
 
   .portfolio {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   .linkme {
@@ -245,7 +305,7 @@ p {
   }
 
   #contact-heading {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   #herbivore,
@@ -259,17 +319,13 @@ p {
     margin-top: 10px;
   }
 
-  #arrow {
-    margin-left: 700px;
-  }
-
   #email,
   #email-icon {
     font-size: 30px;
   }
 
   #email {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   #linkedin,
@@ -284,6 +340,14 @@ p {
 }
 
 @media (max-width: 820px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .container-contact {
+    margin-top: 100px;
+  }
+
   .about-start {
     margin-top: 250px;
   }
@@ -299,11 +363,6 @@ p {
   .linkme {
     text-align: center;
     margin-top: -30px;
-  }
-
-  #arrow {
-    margin-left: 420px;
-    margin-top: 30px;
   }
 
   #about-heading {
@@ -410,69 +469,5 @@ p {
 
   button {
     margin: 0 auto;
-  }
-}
-
-@media (min-width: 1200px) {
-  h3:hover .hello {
-    display: none;
-    transition: ease-in-out;
-  }
-
-  h3:hover .about {
-    display: inline;
-    transition: ease-in-out;
-  }
-
-  h4:hover .ali {
-    display: none;
-    transition: ease-in-out;
-  }
-
-  h4:hover .work {
-    display: inline;
-    transition: ease-in-out;
-  }
-
-  h2:hover .front-end-dev {
-    display: none;
-    transition: ease-in-out;
-  }
-
-  h2:hover .contact {
-    display: inline;
-    transition: ease-in-out;
-  }
-
-  .navbar-navigation {
-    display: none;
-  }
-
-  .about-baking {
-    padding-top: 250px;
-  }
-
-  .about-start {
-    margin-top: 80px;
-  }
-
-  .portfolio {
-    margin-top: 60px;
-  }
-
-  #contact-heading {
-    margin-top: 120px;
-  }
-
-  #weather-app {
-    margin-top: 90px;
-  }
-
-  #herbivore {
-    margin-top: 40px;
-  }
-
-  #email {
-    margin-bottom: 120px;
   }
 }
