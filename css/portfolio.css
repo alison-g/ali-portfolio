@@ -112,6 +112,7 @@ p {
 .linkme {
   font-size: 30px;
   font-weight: lighter;
+  text-align: center;
 }
 
 #arrow {
@@ -176,12 +177,12 @@ p {
     margin-top: 200px;
   }
 
-  .linkme {
-    margin-bottom: 0px;
-  }
-
   .container-about {
     margin-top: -60px;
+  }
+
+  .container-contact {
+    margin-left: 60px;
   }
 
   #ali-link,
@@ -473,5 +474,9 @@ p {
 
   #herbivore {
     margin-top: 40px;
+  }
+
+  #email {
+    margin-bottom: 120px;
   }
 }
