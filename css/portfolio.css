@@ -287,6 +287,16 @@ p {
   }
 }
 
+@media (max-width: 1280px) and (max-height: 800px) {
+  .about-start {
+    margin-top: 80px;
+  }
+
+  .about-baking {
+    margin-top: 0px;
+  }
+}
+
 @media (max-width: 1024px) {
   h2 {
     font-size: 50px;
@@ -332,7 +342,6 @@ p {
 
   #herbivore,
   #weather-app {
-    line-height: 0px;
     font-size: 50px;
     margin-bottom: 40px;
   }
@@ -672,14 +681,9 @@ p {
     font-size: 35px;
   }
 
-  .kitchen {
-    display: block;
-    margin-bottom: 30px;
-  }
-
   #weather-app,
   #herbivore {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   #contact-heading {
