@@ -383,28 +383,6 @@ p {
   }
 }
 
-@media (max-width: 1024px) and (max-height: 768px) {
-  .container {
-    margin-top: 60px;
-  }
-
-  .about-start {
-    margin-top: 150px;
-  }
-
-  .about-baking {
-    margin-top: 150px;
-  }
-
-  .portfolio {
-    margin-top: 80px;
-  }
-
-  #contact-heading {
-    margin-top: 80px;
-  }
-}
-
 @media (max-width: 820px) {
   .container {
     margin-top: 100px;
@@ -619,7 +597,7 @@ p {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (orientation: portrait) {
   #hello-link {
     margin-top: -30px;
   }
@@ -721,7 +699,29 @@ p {
   }
 }
 
-@media (max-height: 414px) {
+@media (max-height: 768px) and (orientation: landscape) {
+  .container {
+    margin-top: 60px;
+  }
+
+  .about-start {
+    margin-top: 150px;
+  }
+
+  .about-baking {
+    margin-top: 150px;
+  }
+
+  .portfolio {
+    margin-top: 80px;
+  }
+
+  #contact-heading {
+    margin-top: 80px;
+  }
+}
+
+@media (max-height: 414px) and (orientation: landscape) {
   body {
     padding-top: 0px;
   }
@@ -770,7 +770,7 @@ p {
   }
 }
 
-@media (max-height: 375px) {
+@media (max-height: 375px) and (orientation: landscape) {
   body {
     padding: 30px;
     padding-top: 70px;
@@ -785,7 +785,7 @@ p {
   }
 }
 
-@media (max-height: 360px) {
+@media (max-height: 360px) and (orientation: landscape) {
   h3,
   h4 {
     font-size: 45px;
@@ -821,7 +821,7 @@ p {
   }
 }
 
-@media (max-height: 280px) {
+@media (max-height: 280px) and (orientation: landscape) {
   body {
     padding-top: 40px;
   }
